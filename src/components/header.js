@@ -19,6 +19,7 @@ function Header(){
               <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
               <li><a className="nav-link scrollto" href="#team">Team</a></li>
               <li><Link className="nav-link scrollto" to="/dashboard">Dashboard</Link></li>
+              <li><Link className="nav-link scrollto" to="/explore">Explore</Link></li>
               <li><a href="blog.html">Blog</a></li>
               <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                 <ul>
