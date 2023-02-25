@@ -238,7 +238,7 @@ function MainPage() {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
-                    <h2>Portfoio</h2>
+                    <h2>Explore</h2>
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
 
@@ -256,7 +256,7 @@ function MainPage() {
                 <div className="row portfolio-container">
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-1.jpg")} className="img-fluid" alt="************************888" />
                         <div className="portfolio-info">
                             <h4>App 1</h4>
                             <p>App</p>
@@ -266,7 +266,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-2.jpg")} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Web 3</h4>
                             <p>Web</p>
@@ -276,7 +276,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-3.jpg")} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>App 2</h4>
                             <p>App</p>
@@ -286,7 +286,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-4.jpg")} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Card 2</h4>
                             <p>Card</p>
@@ -296,7 +296,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-5.jpg")}className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Web 2</h4>
                             <p>Web</p>
@@ -306,7 +306,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-6.jpg")}className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>App 3</h4>
                             <p>App</p>
@@ -316,7 +316,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-7.jpg")} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Card 1</h4>
                             <p>Card</p>
@@ -326,7 +326,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-8.jpg")} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Card 3</h4>
                             <p>Card</p>
@@ -336,7 +336,7 @@ function MainPage() {
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
+                        <img src={require("../img/portfolio/portfolio-9.jpg")} className="img-fluid" alt="" />
                         <div className="portfolio-info">
                             <h4>Web 3</h4>
                             <p>Web</p>
