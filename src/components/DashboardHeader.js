@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 
 function DashboardHeader() {
     return (
-        <header id="header">
+        <header id="dashboardheader">
             <div className="d-flex flex-column">
 
                 <div className="profile">
-                    <img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
+                    <img src={require("../dashboardimg/profile-img.jpg")} alt="" className="img-fluid rounded-circle" />
                     <h1 className="text-light"><a href="index.html">Alex Smith</a></h1>
                     <div className="social-links mt-3 text-center">
                         <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
@@ -18,7 +18,7 @@ function DashboardHeader() {
                     </div>
                 </div>
 
-                <nav id="navbar" className="nav-menu navbar">
+                <nav id="navbar" className="nav-menu dashboardnavbar">
                     <ul>
                         <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
                         <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>

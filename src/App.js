@@ -21,6 +21,12 @@ import "./vendor/isotope-layout/isotope.pkgd.min.js"
 import "./vendor/swiper/swiper-bundle.min.js"
 import "./vendor/php-email-form/validate.js"
 import "./js/main.js"
+import "./dashboardjs/main.js"
+import "./vendor/purecounter/purecounter_vanilla.js"
+import "./vendor/typed.js/typed.min.js"
+import "./vendor/waypoints/noframework.waypoints.js"
+import "./vendor/php-email-form/validate.js"
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -38,6 +44,15 @@ function componentDidMount() {
 }
 
 componentDidMount();
+
+function componentDidMount2() {
+  const script = document.createElement("script");
+  script.src = 'C:/Users/Saniya Maheshwari/OneDrive/Desktop/TBT/tbt/node_modules/waypoints/lib/noframework.waypoints.min.js';
+  script.async = true;
+  document.body.appendChild(script);
+}
+
+componentDidMount2();
 
 function App() {
   return (

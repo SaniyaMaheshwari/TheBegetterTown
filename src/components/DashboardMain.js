@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 function DashboardMain() {
     return (
-        <main id="main">
+        <main id="dashboardmain">
 
-            <section id="about" className="about">
+            <section id="about" className="dashboardabout">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>About</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
 
                     <div className="row">
                         <div className="col-lg-4" data-aos="fade-right">
-                            <img src="assets/img/profile-img.jpg" className="img-fluid" alt="" />
+                            <img src={require("../dashboardimg/profile-img.jpg")} className="img-fluid" alt="" />
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                             <h3>UI/UX Designer &amp; Web Developer.</h3>
@@ -54,7 +54,7 @@ function DashboardMain() {
             <section id="facts" className="facts">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Facts</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
@@ -98,10 +98,10 @@ function DashboardMain() {
                 </div>
             </section>
 
-            <section id="skills" className="skills section-bg">
+            <section id="skills" className="skills dashboardsection-bg">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Skills</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
@@ -166,7 +166,7 @@ function DashboardMain() {
             <section id="resume" className="resume">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Resume</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
@@ -228,10 +228,10 @@ function DashboardMain() {
                 </div>
             </section>
 
-            <section id="portfolio" className="portfolio section-bg">
+            <section id="portfolio" className="portfolio dashboardsection-bg">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Portfolio</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
@@ -251,9 +251,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-1.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-1.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -261,9 +261,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-2.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-2.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -271,9 +271,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-3.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-3.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -281,9 +281,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-4.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-4.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -291,9 +291,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-5.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-5.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -301,9 +301,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-6.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-6.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -311,7 +311,7 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-7.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
                                     <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
@@ -321,9 +321,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-8.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-8.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -331,9 +331,9 @@ function DashboardMain() {
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                             <div className="portfolio-wrap">
-                                <img src="assets/img/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
+                                <img src={require("../dashboardimg/portfolio/portfolio-9.jpg")} className="img-fluid" alt="" />
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
+                                    <a href={require("../dashboardimg/portfolio/portfolio-9.jpg")} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -344,10 +344,10 @@ function DashboardMain() {
                 </div>
             </section>
 
-            <section id="services" className="services">
+            <section id="services" className="dashboardservices">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Services</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
@@ -388,10 +388,10 @@ function DashboardMain() {
                 </div>
             </section>
 
-            <section id="testimonials" className="testimonials section-bg">
+            <section id="testimonials" className="testimonials dashboardsection-bg">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Testimonials</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
@@ -406,7 +406,7 @@ function DashboardMain() {
                                         Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
-                                    <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
+                                    <img src={require("../dashboardimg/testimonials/testimonials-1.jpg")} className="testimonial-img" alt="" />
                                     <h3>Saul Goodman</h3>
                                     <h4>Ceo &amp; Founder</h4>
                                 </div>
@@ -419,7 +419,7 @@ function DashboardMain() {
                                         Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
-                                    <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
+                                    <img src={require("../dashboardimg/testimonials/testimonials-2.jpg")} className="testimonial-img" alt="" />
                                     <h3>Sara Wilsson</h3>
                                     <h4>Designer</h4>
                                 </div>
@@ -432,7 +432,7 @@ function DashboardMain() {
                                         Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
-                                    <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
+                                    <img src={require("../dashboardimg/testimonials/testimonials-3.jpg")} className="testimonial-img" alt="" />
                                     <h3>Jena Karlis</h3>
                                     <h4>Store Owner</h4>
                                 </div>
@@ -445,7 +445,7 @@ function DashboardMain() {
                                         Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
-                                    <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
+                                    <img src = {require("../dashboardimg/testimonials/testimonials-4.jpg")} className="testimonial-img" alt="" />
                                     <h3>Matt Brandon</h3>
                                     <h4>Freelancer</h4>
                                 </div>
@@ -458,7 +458,7 @@ function DashboardMain() {
                                         Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                                         <i className="bx bxs-quote-alt-right quote-icon-right"></i>
                                     </p>
-                                    <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
+                                    <img src={require("../dashboardimg/testimonials/testimonials-5.jpg")} className="testimonial-img" alt="" />
                                     <h3>John Larson</h3>
                                     <h4>Entrepreneur</h4>
                                 </div>
@@ -471,10 +471,10 @@ function DashboardMain() {
                 </div>
             </section>
 
-            <section id="contact" className="contact">
+            <section id="contact" className="dashboardcontact">
                 <div className="container">
 
-                    <div className="section-title">
+                    <div className="dashboardsection-title">
                         <h2>Contact</h2>
                         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                     </div>
