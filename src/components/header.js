@@ -1,5 +1,6 @@
 import { React } from "react";
 import { Link } from "react-router-dom"
+import Login_ from "./login.js"
 
 function Header(){
     return (
@@ -39,6 +40,7 @@ function Header(){
                 </ul>
               </li>
               <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><Login_/></li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
