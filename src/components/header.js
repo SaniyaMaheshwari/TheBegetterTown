@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Link } from "react-router-dom"
 
 function Header(){
     return (
@@ -12,9 +13,12 @@ function Header(){
               <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
               <li><a className="nav-link scrollto" href="#about">About</a></li>
               <li><a className="nav-link scrollto" href="#services">Services</a></li>
+              {/* <li><Link className="nav-link scrollto active" to="/">Home</Link></li>
+              <li><Link className="nav-link scrollto" to="/header">Header</Link></li>
+              <li><Link className="nav-link scrollto" to="/footer">Footer</Link></li> */}
               <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
               <li><a className="nav-link scrollto" href="#team">Team</a></li>
-              <li><a className="nav-link scrollto" href="#pricing">Pricing</a></li>
+              <li><Link className="nav-link scrollto" to="/dashboard">Dashboard</Link></li>
               <li><a href="blog.html">Blog</a></li>
               <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
                 <ul>
