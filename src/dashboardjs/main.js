@@ -10,7 +10,7 @@ import Isotope from 'isotope-layout';
 import AOS from 'aos';
 import GLightbox from 'glightbox';
 import Typed from 'typed.js';
-import Waypoint from 'C:/Users/Saniya Maheshwari/OneDrive/Desktop/TBT/tbt/node_modules/waypoints/lib/noframework.waypoints.min.js';
+import Waypoint from '../../node_modules/waypoints/lib/noframework.waypoints.min.js';
 import PureCounter from "@srexi/purecounterjs";
 
 (function() {
