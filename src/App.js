@@ -6,6 +6,7 @@ import MainPage from './components/MainPage.js'
 import Footer from './components/footer.js'
 import Dashboard from './components/dashboard.js'
 import Explore from './components/Explore.js'
+import Signup2 from './components/signup2.js'
 import './vendor/animate.css/animate.min.css'
 import './vendor/aos/aos.css'
 import "./vendor/bootstrap/css/bootstrap.min.css"
@@ -37,6 +38,7 @@ import {
 } from "react-router-dom";
 import { Link } from "react-router"
 
+
 function componentDidMount() {
   const script = document.createElement("script");
   script.src = "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js";
@@ -63,6 +65,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path = "/dashboard" element = {<Dashboard />} />
         <Route path = "/explore" element = {<Explore />} />
+        <Route path = "/signup2" element = {<Signup2/>} />
         {/* <Route path="/header" element={<Header />} />
         <Route path="/footer" element={<Footer />} /> */}
       </Routes>
