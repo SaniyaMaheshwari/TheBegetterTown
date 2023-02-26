@@ -88,12 +88,7 @@ function MainPage() {
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Explore</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
+           
           </div>
 
           <div className="row">
@@ -390,17 +385,13 @@ function MainPage() {
               <div className="member d-flex align-items-start">
                 <div className="pic">
                   <img
-                    src="assets/img/team/team-1.jpg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTedxIsN3vx722kF1H4O7sbOxYO3UI3quFB-Q&usqp=CAU"
                     className="img-fluid"
                     alt=""
                   />
                 </div>
-                  <div>
-                    <div>
-                    <img src = "https://www.tutorialspoint.com/bootstrap/images/64.jpg" 
-               class = "rounded-circle" alt = "Rounded Image" width = "200" height = "200"/>
-                    </div>
-                  <div className="member-info">
+                  
+                <div className="member-info">
                   <h4>Vartika Gupta</h4>
                   <span>Chief Executive Officer</span>
                  
@@ -420,8 +411,6 @@ function MainPage() {
                     </a>
                   </div>
                 </div>
-                  </div>
-               
               </div>
             </div>
 
@@ -433,11 +422,13 @@ function MainPage() {
               <div className="member d-flex align-items-start">
                 <div className="pic">
                   <img
-                    src="assets/img/team/team-2.jpg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWSOfVKWeUXO1igbOj5_JZ0ZehxDhk0DL2xw&usqp=CAU"
                     className="img-fluid"
                     alt=""
                   />
                 </div>
+
+                
                 <div className="member-info">
                   <h4>Divya Rai</h4>
                   <span>Product Manager</span>
@@ -469,7 +460,7 @@ function MainPage() {
               <div className="member d-flex align-items-start">
                 <div className="pic">
                   <img
-                    src="assets/img/team/team-3.jpg"
+                    src="http://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -505,7 +496,7 @@ function MainPage() {
               <div className="member d-flex align-items-start">
                 <div className="pic">
                   <img
-                    src="assets/img/team/team-4.jpg"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRFD7EQ6XB0GT0v2to0Jz1mg_s8rZ8QJK84A&usqp=CAU"
                     className="img-fluid"
                     alt=""
                   />
