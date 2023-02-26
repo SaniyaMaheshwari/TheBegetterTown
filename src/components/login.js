@@ -52,7 +52,7 @@ function Login_(){
 
                             <div class="form-outline mb-4">
                               <input type="email" id="form2Example17" class="form-control form-control-lg" />
-                              <label class="form-label" for="form2Example17">Email address</label>
+                              <label class="form-label" for="form2Example17" >Email address</label>
                             </div>
 
                             <div class="form-outline mb-4">
