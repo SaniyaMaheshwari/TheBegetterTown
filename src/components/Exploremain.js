@@ -3,8 +3,8 @@ import React from 'react'
 export default function Exploremain() {
   return (
     <>
-        <section id="portfolio" className="portfoio">
-            <div className="container" data-aos="fade-up">
+        <section id="portfolio" className="portfoio" style={{paddingTop:"200px"}}>
+            <div className="container" data-aos="fade-up" >
 
                 <div className="section-title">
                     <h2>Explore</h2>

@@ -11,13 +11,14 @@ function Header(){
     
           <nav id="navbar" className="navbar">
             <ul>
-              <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
+              {/* <li><a className="nav-link scrollto active" href="#hero">Home</a></li> */}
+              <li><Link className="nav-link scrollto" to="/">Home</Link></li>
               <li><a className="nav-link scrollto" href="#about">About</a></li>
               <li><a className="nav-link scrollto" href="#services">Services</a></li>
               {/* <li><Link className="nav-link scrollto active" to="/">Home</Link></li>
               <li><Link className="nav-link scrollto" to="/header">Header</Link></li>
               <li><Link className="nav-link scrollto" to="/footer">Footer</Link></li> */}
-              <li><a className="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+             
               <li><a className="nav-link scrollto" href="#team">Team</a></li>
               <li><Link className="nav-link scrollto" to="/dashboard">Dashboard</Link></li>
               <li><Link className="nav-link scrollto" to="/explore">Explore</Link></li>
