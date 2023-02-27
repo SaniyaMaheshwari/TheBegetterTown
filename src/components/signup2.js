@@ -1,35 +1,9 @@
-import React,{useState} from 'react'
-//import "../css/signup.css"
-import {Modal, ModalHeader, ModalBody} from "reactstrap";
+import { React } from "react";
+import { Link } from "react-router-dom";
 
-// import {
-//     MDBBtn,
-//     MDBContainer,
-//     MDBCard,
-//     MDBCardBody,
-//     MDBCardImage,
-//     MDBRow,
-//     MDBCol,
-//     MDBIcon,
-//     MDBInput
-//   }
-//   from 'mdb-react-ui-kit';
-  // import "../../css/login.css"
-function Signup(){
-    const [modal,setModal] = useState(false)
+function Signup2()
+{
     return(
-      <div>
-      <Modal
-          size="xl"
-          isOpen = {modal}
-          toggle = {()=>setModal(!modal)}
-        >
-        {/* <ModalHeader
-        toggle = {()=>setModal(!modal)} 
-        >
-        </ModalHeader> */}
-
-        <ModalBody>
         <section   style={{backgroundColor: '#9A616D'}}>
             <div class="container py-5 h-100">
               <div class="row d-flex justify-content-center align-items-center h-100">
@@ -637,11 +611,7 @@ function Signup(){
               </div>
             </div>
           </section>
-        </ModalBody>
-      </Modal>
-  <button className='btn' onClick={()=>{setModal(true);}}>Signup</button>    
-  </div>
-    );
+    )
 }
 
-export default Signup;
+export default Signup2;
