@@ -2,20 +2,22 @@ import { React } from "react";
 import { Link } from "react-router-dom"
 import Login_ from "./login.js"
 import Signup from "./signup.js"
+import '../css/header.css'
 
 function Header(){
     return (
         <header id="header" className="fixed-top d-flex align-items-center ">
         <div className="container d-flex align-items-center justify-content-between">
     
-          <a href="index.html" className="logo"><img src={require("../img/apple-touch-icon.png")} alt="TBT" className="img-fluid"/></a>
+          <a href="index.html" className="logo"><img src={require("../img/TBT.png")} alt="TBT" className="img-fluid"/></a>
     
           <nav id="navbar" className="navbar">
             <ul>
               {/* <li><a className="nav-link scrollto active" href="#hero">Home</a></li> */}
               <li><Link className="nav-link scrollto" to="/">Home</Link></li>
               <li><a className="nav-link scrollto" href="#about">About</a></li>
-              <li><a className="nav-link scrollto" href="#services">Services</a></li>
+              <li><Link className="nav-link scrollto" to="/ideas">Ideas</Link></li>
+              {/* <li><a className="nav-link scrollto" href="/ideas">Ideas</a></li> */}
               {/* <li><Link className="nav-link scrollto active" to="/">Home</Link></li>
               <li><Link className="nav-link scrollto" to="/header">Header</Link></li>
               <li><Link className="nav-link scrollto" to="/footer">Footer</Link></li> */}
@@ -43,6 +45,7 @@ function Header(){
               </li>
               <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
               <li><Login_/></li>
+              <li>/</li>
               <li><Signup/></li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>

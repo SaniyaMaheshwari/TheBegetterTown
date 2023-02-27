@@ -15,11 +15,10 @@ function MainPage() {
                   <i className="bx bxl-dribbble"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Lorem Ipsum</a>
+                  <a href="">Explore</a>
                 </h4>
                 <p className="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                Explore page is a space where you can browse through other creators' work and get new ideas for your own designs.
                 </p>
               </div>
             </div>
@@ -34,11 +33,10 @@ function MainPage() {
                   <i className="bx bx-file"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Sed ut perspiciatis</a>
+                  <a href="">Ideas</a>
                 </h4>
                 <p className="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur
+                Ideas page is a space where you can post your ideas and imaginations and also can get new ideas for your own designs.
                 </p>
               </div>
             </div>
@@ -53,11 +51,10 @@ function MainPage() {
                   <i className="bx bx-tachometer"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Magni Dolores</a>
+                  <a href="">Events</a>
                 </h4>
                 <p className="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
+               Events page keeps you remain updated with the events (e.g. exhibition) occurring in different regions where you can participate.
                 </p>
               </div>
             </div>
@@ -72,11 +69,10 @@ function MainPage() {
                   <i className="bx bx-layer"></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Nemo Enim</a>
+                  <a href="">Portfolio</a>
                 </h4>
                 <p className="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                This facilitates the creation of a portfolio page for you by collecting the relevant data from you, which in turn can aid in you to establish identity and gain fame.
                 </p>
               </div>
             </div>
@@ -97,9 +93,10 @@ function MainPage() {
                 <li data-filter="*" className="filter-active">
                   All
                 </li>
-                <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
+                <li data-filter=".filter-app">Paintings</li>
+                <li data-filter=".filter-card">Handicrafts</li>
+                <li data-filter=".filter-web">Fashion</li>
+                <li data-filter=".filter-web">Jewellery</li>
               </ul>
             </div>
           </div>
