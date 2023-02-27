@@ -5,6 +5,7 @@ import Carousels from "./components/carousel.js"
 import MainPage from './components/MainPage.js'
 import Footer from './components/footer.js'
 import Dashboard from './components/dashboard.js'
+import Ideas from './components/Ideas.js'
 import Explore from './components/Explore.js'
 import Signup2 from './components/signup2.js'
 import './vendor/animate.css/animate.min.css'
@@ -65,7 +66,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path = "/dashboard" element = {<Dashboard />} />
         <Route path = "/explore" element = {<Explore />} />
+<<<<<<< HEAD
+        <Route path = "/ideas" element = {<Ideas />} />
+=======
         <Route path = "/signup2" element = {<Signup2/>} />
+>>>>>>> e5e34be48f3f2c65e8e1767d97b943ac797b0f81
         {/* <Route path="/header" element={<Header />} />
         <Route path="/footer" element={<Footer />} /> */}
       </Routes>

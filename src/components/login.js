@@ -45,7 +45,7 @@ function Login_(){
 
                             <div class="d-flex align-items-center mb-3 pb-1">
                               <i class="fas fa-cubes fa-2x me-3" style={{color: '#ff6219'}}></i>
-                              <span class="h1 fw-bold mb-0">Logo</span>
+                              <span class="h1 fw-bold mb-0">Welcome to The Begetter Town !</span>
                             </div>
 
                             <h5 class="fw-normal mb-3 pb-3" style={{letterSpacing: '1px'}}>Sign into your account</h5>
@@ -81,7 +81,7 @@ function Login_(){
           </section>
         </ModalBody>
       </Modal>
-  <button onClick={()=>{setModal(true);}}>LOGIN</button>    
+  <button className='btn' onClick={()=>{setModal(true);}}>Login</button>    
   </div>
     );
 }

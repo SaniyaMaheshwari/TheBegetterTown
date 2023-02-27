@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 //import "../css/signup.css"
 import {Modal, ModalHeader, ModalBody} from "reactstrap";
+
 // import {
 //     MDBBtn,
 //     MDBContainer,
@@ -638,7 +639,7 @@ function Signup(){
           </section>
         </ModalBody>
       </Modal>
-  <button onClick={()=>{setModal(true);}}>SIGN UP</button>    
+  <button className='btn' onClick={()=>{setModal(true);}}>Signup</button>    
   </div>
     );
 }
